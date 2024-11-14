@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3 - Layouts Flex e Grid</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Viagens Marinhas</h1>
+        <h4>Por Nuno Marinho</h4>
+    </header>
+
+    <!-- Carousel -->
+    <div class="carousel">
+        <input type="radio" name="carousel" id="img1" checked>
+        <input type="radio" name="carousel" id="img2">
+        <input type="radio" name="carousel" id="img3">
+        <input type="radio" name="carousel" id="img4">
+        <input type="radio" name="carousel" id="img5">
+        <input type="radio" name="carousel" id="img6">
+    
+        <div class="images">
+            <div class="image">
+                <label for="img1"><img src="images/imagem1.jpg" alt="Imagem 1"></label>
+                <label for="img2"><img src="images/imagem2.jpg" alt="Imagem 2"></label>
+                <label for="img3"><img src="images/imagem3.jpg" alt="Imagem 3"></label>
+                <label for="img4"><img src="images/imagem4.jpg" alt="Imagem 4"></label>
+                <label for="img4"><img src="images/imagem5.jpg" alt="Imagem 5"></label>
+                <label for="img4"><img src="images/imagem6.jpg" alt="Imagem 6"></label>
+            </div>
+        </div>
+    
+        <div class="navigation">
+            <label for="img1" class="nav-button">1</label>
+            <label for="img2" class="nav-button">2</label>
+            <label for="img3" class="nav-button">3</label>
+            <label for="img4" class="nav-button">4</label>
+            <label for="img5" class="nav-button">5</label>
+            <label for="img6" class="nav-button">6</label>
+        </div>
+    </div>
+
+    <!-- Capitais Section -->
+    <div class="card-container">
+        <div class="card">
+            <img src="images/Lisboa.jpg" alt="Lisboa" class="left-image">
+            <p class="card-text">Lisboa ⇌ Londres</p>
+            <img src="images/Londres.jpg" alt="Londres" class="right-image">
+        </div>
+        <div class="card">
+            <img src="images/Paris.jpg" alt="Paris" class="left-image">
+            <p class="card-text">Paris ⇌ Londres</p>
+            <img src="images/Londres.jpg" alt="Londres" class="right-image">
+        </div>
+        <div class="card">
+            <img src="images/Roma.png" alt="Roma" class="left-image">
+            <p class="card-text">Roma ⇌ Berlim</p>
+            <img src="images/Berlim.jpg" alt="Berlim" class="right-image">
+        </div>
+        <div class="card">
+            <img src="images/Amesterdao.jpg" alt="Amesterdao" class="left-image">
+            <p class="card-text">Amsterdão ⇌ Bruxelas</p>
+            <img src="images/Bruxelas.jpg" alt="Bruxelas" class="right-image">
+        </div>
+        <div class="card">
+            <img src="images/Lisboa.jpg" alt="Lisboa" class="left-image">
+            <p class="card-text">Lisboa ⇌ Paris</p>
+            <img src="images/Paris.jpg" alt="Paris" class="right-image">
+        </div>
+        <div class="card">
+            <img src="images/Madrid.jpg" alt="Madrid" class="left-image">
+            <p class="card-text">Madrid ⇌ Buenos Aires</p>
+            <img src="images/BuenosAires.jpg" alt="Buenos Aires" class="right-image">
+        </div>
+        <div class="card">
+            <img src="images/Toquio.jpg" alt="Toquio" class="left-image">
+            <p class="card-text">Tóquio ⇌ Pequim</p>
+            <img src="images/Pequim.jpg" alt="Pequim" class="right-image">
+        </div>
+        <div class="card">
+            <img src="images/Sydney.jpg" alt="Sydney" class="left-image">
+            <p class="card-text">Sydney ⇌ Melbourne</p>
+            <img src="images/Melbourne.jpg" alt="Melbourne" class="right-image">
+        </div>
+        <div class="card">
+            <img src="images/Ottawa.jpg" alt="Ottawa" class="left-image">
+            <p class="card-text">Ottawa ⇌ Toronto</p>
+            <img src="images/Toronto.jpg" alt="Toronto" class="right-image">
+        </div>
+        <div class="card">
+            <img src="images/Berlim.jpg" alt="Berlim" class="left-image">
+            <p class="card-text">Berlim ⇌ Varsóvia</p>
+            <img src="images/Vasrsovia.jpeg" alt="Varsovia" class="right-image">
+        </div>
+        <!-- Additional cards -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Viagens Marinhas. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
